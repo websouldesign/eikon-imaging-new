@@ -225,7 +225,7 @@ body {
 }
 .quality-system-right-con::before {
 	content: "";
-	background: url(./images/curve-shape-img.png) no-repeat top center;
+	/* background: url(./images/curve-shape-img.png) no-repeat top center; */
 	width: 110%;
 	height: 323px;
 	position: absolute;
