@@ -559,6 +559,13 @@
     }
 }
 @media only screen and (max-width: 767px){
+    .banner_headingh1{
+        font-size: 1.6rem !important;
+    }
+    .banner-right-content {
+    
+        padding-left: 0px;}
+
     .navbar-collapse{
         min-width: 60%;
     }
@@ -845,6 +852,9 @@
 
 }
 @media only screen and (max-width: 575px){
+    .hummmarh2 {
+        font-size: 2rem;
+    }
     .modal-content {
         max-width: 98%;
     }
@@ -1021,7 +1031,7 @@
     .weight-footer-inner-con .row .col-lg-2:nth-child(2),
     .weight-footer-inner-con .row .col-lg-2:nth-child(3),
     .weight-footer-inner-con .row .col-lg-3:nth-child(4){
-        display: none;
+        display: block;
     }
     .carousel-control-next i{
         position: relative;

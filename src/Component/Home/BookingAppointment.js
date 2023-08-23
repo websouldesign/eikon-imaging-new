@@ -1,26 +1,27 @@
 import React, { useState } from 'react'
 import img1 from '../../assets/images/svg.png'
+import { useNavigate } from 'react-router-dom';
 
 export default function BookingAppointment() {
-   const [showAlert, setShowAlert] = useState(false);
-
-   const handleSubmit = (event) => {
-     event.preventDefault(); // Prevent page reload
+   const navigate = useNavigate();
+   const [formData, setFormData] = useState({
+     name: '',
+     email: '',
+     phone: '',
+     subject: '',
+     comments: '',
+   });
  
-     // Simulate form submission
-     // You can add your actual form submission logic here
+   const handleSubmit = (e) => {
+     e.preventDefault();
+     // Perform form submission logic here
  
-     // After successful form submission, show the alert
-     setShowAlert(true);
- 
-     // Hide the alert after 3 seconds
-     setTimeout(() => {
-       setShowAlert(false);
-     }, 3000); // 3000 milliseconds = 3 seconds
+     // After successful submission, navigate to the thank you page
+     navigate('/success'); // Use navigate function without .push
    };
   return (
     <div>
-          <section>
+          <section id='appointment-form'>
          <div class="w-100 float-left fun-facts-con form-main-con " id="contact-form">
             <div class="container">
                <div class="text-center">
@@ -42,11 +43,7 @@ export default function BookingAppointment() {
                      </div>
                   </div>
                   <div class="col-lg-6">
-                  {showAlert && (
-        <div className="alert alert-success" role="alert">
-          Form submitted successfully!
-        </div>
-      )}
+           
                      <form class="contact-form" onSubmit={handleSubmit}>
                     
                         <div class="row">

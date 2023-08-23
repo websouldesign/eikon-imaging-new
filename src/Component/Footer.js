@@ -10,17 +10,17 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
   return (
     <div>
-            <section>
+         <section>
          <div class="w-100 float-left weight-footer-con">
             <div class="container">
                <div class="weight-footer-inner-con">
                   <div class="row">
-                     <div class="col-lg-4 col-12 text-xl-left text-lg-left text-center">
+                     <div class="col-lg-4 col-md-6 col-12 text-xl-left text-lg-left">
                         <div class="weight-footer-content ">
                            <figure>
                               <img src={LOGO} alt="footer-logo" width={'80%'} class="img-fluid" />
                            </figure>
-                           <p class="col-lg-11 col-md-7 pl-0 pr-0 ml-lg-0 mr-lg-0 ml-md-auto mr-md-auto">This is a sample of dummy copy text often used to show page layout and design as sample layout text by Graphic designers, Web designers, People creating templates, and many other uses. </p>
+                           <p class="pr-5 pl-0">This is a sample of dummy copy text often used to show page layout and design as sample layout text by Graphic designers, Web designers, People creating templates, and many other uses. </p>
                            <div class="weight-social-list">
                               <ul class="list-unstyled mb-0">
                                  <li class="d-inline-block"><Link target="_blank" to="https://www.facebook.com/"><i class="fab fa-facebook-square d-flex align-items-center justify-content-center text-white pr-0"></i></Link></li>
@@ -31,22 +31,22 @@ export default function Footer() {
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+                     <div class="col-lg-2 col-md-6 col-sm-12">
                         <div class="weight-footer-content">
                            <h5>Important Link</h5>
                            <ul class="list-unstyled mb-0">
                               <li><i class="fas fa-caret-right"></i><Link to='/'>Home</Link></li>
-                              <li><i class="fas fa-caret-right"></i><Link to='/'>About Us</Link></li>
-                              <li><i class="fas fa-caret-right"></i><Link to='/'>Medical</Link></li>
-                              <li><i class="fas fa-caret-right"></i><Link to='/'>Maping ecommerce</Link></li>
-                              <li><i class="fas fa-caret-right"></i><Link to='/'>Contact Us</Link></li>
+                              <li><i class="fas fa-caret-right"></i><Link to='/about'>About Us</Link></li>
+                              <li><i class="fas fa-caret-right"></i><Link to='/medical'>Medical</Link></li>
+                              <li><i class="fas fa-caret-right"></i><Link to='/maping-ecommerce'>Maping ecommerce</Link></li>
+                              <li><i class="fas fa-caret-right"></i><Link to='/Contact'>Contact Us</Link></li>
 
                               
                              
                            </ul>
                         </div>
                      </div>
-                     <div class="col-lg-2 col-md-3 col-sm-3 col-6">
+                     <div class="col-lg-2 col-md-6 col-sm-12">
                         <div class="weight-footer-content">
                            <h5>Product</h5>
                            <ul class="list-unstyled mb-0">
@@ -58,16 +58,18 @@ export default function Footer() {
                            </ul>
                         </div>
                      </div>
-                     <div class="col-lg-4 col-md-5 col-sm-5 col-12">
+                     <div class="col-lg-4 col-md-6 col-sm-5 col-12">
                         <div class="weight-footer-content">
                            <h5>Get in Touch</h5>
                            <ul class="list-unstyled mb-0">
-                              <li><span>Email: </span>hemant.borse@eikonimaging.ai</li>
-                              <li><span>Phone: </span>+91 96543 70277</li>
+                              <li ><Link to="mailto:hemant.borse@eikonimaging.ai" target='_blank'><span>Email: </span>hemant.borse@eikonimaging.ai</Link></li>
+                              <li><Link to="tel:96543 70277" target='_blank'><span>Phone: </span>+91 96543 70277</Link></li>
                               {/* <li><span>Fax: </span>+1 ( 987 ) 654 321  9 9</li> */}
-                              <li class="mb-0"><span class="pr-2">Address:</span>504, 5-B, Manasarovar Complex
+                              <li class="mb-0"><Link target='_blank'
+                                 to="https://www.google.com/maps?ll=19.018452,73.085876&z=16&t=m&hl=en&gl=JP&mapclient=embed&cid=1094941359241037706"
+                              ><span class="pr-2"> Address:</span>504, 5-B, Manasarovar Complex
 Sector-34, Kamothe
-Navi Mumbai-410209
+Navi Mumbai-410209</Link>
                               </li>
                            </ul>
                         </div>

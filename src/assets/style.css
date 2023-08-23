@@ -578,7 +578,7 @@ body {
 }
 .news-letter-input-con button{
     background: var(--accent-color);
-    border: none;
+	border: none;
     font-size: 24px;
     color: var(--primary--color);
     position: absolute;
@@ -761,14 +761,14 @@ body {
 	margin-bottom: 40px;
 }
 .Schedule-con{
-	padding: 120px 0;
+	padding: 80px 0;
 	background:#fafafa ;
 }
 .Schedule-box-item{
 	background:var(--primary--color) ;
-	padding: 36px 46px;
+	padding: 20px 30px;
 	box-shadow: -1px 9px 10px 0px rgb(0 0 0 / 20%);
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 .Schedule-heading h2,
 .contact-page-form-txt h2{
@@ -781,7 +781,9 @@ body {
 	right: 0;
 	width: 120px;
 	height: 120px;
-	background:url("./images/Schedule-faded-icon1.png") no-repeat center right;
+	/* background:url("./images/email.png") no-repeat center right;
+	background-size: cover;
+    opacity: 0.2; */
 }
 .Schedule-box .row .col-lg-6:nth-child(2) .Schedule-box-item:after{
 	background:url("./images/Schedule-faded-icon2.png") no-repeat center right;
@@ -801,7 +803,7 @@ body {
 	color: var(--text-color);
 }
 .Schedule-box-title h5{
-	margin-bottom: 18px;
+	margin-bottom: 5px;
 }
 .contact-page-form-con{
 	padding: 120px 0;
@@ -947,7 +949,7 @@ body {
 }
 .professional-box-item:hover{
 	transition: all 0.6111s ease;
-	background: #ff8800;
+	background: #00475e;
     transform: translateY(-20px);
 	border: transparent;
 }
@@ -1268,4 +1270,24 @@ body {
 
   .navbar-light .navbar-toggler{
     border:none  !important;
+}
+
+.thanksyyy{
+	padding-top: 80px;
+}
+
+.About_just p{
+	text-align: justify;
+}
+
+a:hover{
+	text-decoration:none !important
+}
+
+.quality-system-left-con p ,.banner-right-content p ,.auther-con+p ,.weight-footer-content p{
+	text-align: justify;
+}
+
+.hummmarh2 {
+	font-size: 3rem;
 }

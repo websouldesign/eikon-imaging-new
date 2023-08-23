@@ -1,0 +1,31 @@
+{
+    "section1": {
+      "title": "Eikon Imaging",
+      "heading": "Revolutionizing Business with AI: Eikon's Transformative Journey",
+      "description": "We aim to make global healthcare products and services more human-technology efficient and connected; to better address patient & care seeker needs, optimize costs & build value for all stakeholders."
+    },
+    "section2": {
+      "title": "About Us",
+      "description1": "We at Eikon provide our services to different industries like Healthcare, NDT, Home Security to name a few.",
+      "description2": "Our product IDEATOR, is an AI enabled system and software solution. It has been successfully installed and performing well in hospitals and at OEMs in India. Our product is mainly used by endo-spine surgeons, urologists, orthopedics, neurologists, and radiologists. IDEATOR's main USP is the best image quality at lower X-ray Dose and seamless UI/UX.",
+      "lists": [
+        {
+          "title": "Quality System List 1",
+          "items": [
+            "24 Hour Service",
+            "Modern Clinic"
+          ]
+        },
+        {
+          "title": "Quality System List 2",
+          "items": [
+            "Update Covid-19",
+            "24/7 Help Center"
+          ]
+        }
+      ],
+      "readMoreLink": "/about",
+      "imageURL": "/path/to/your/image.jpg"
+    }
+  }
+  

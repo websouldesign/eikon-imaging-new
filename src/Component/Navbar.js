@@ -30,8 +30,8 @@ export default function Navbar() {
                            Services
                            </Link>
                            <div class="dropdown-menu p-0" aria-labelledby="navbarDropdown">
-                              <Link className="dropdown-item" to="/service">Medical</Link>
-                              <Link className="dropdown-item" to="/service">Maping ecommerce</Link>
+                              <Link className="dropdown-item" to="/medical">Medical</Link>
+                              <Link className="dropdown-item" to="/maping-ecommerce">Maping ecommerce</Link>
                            </div>
                          </li>
 
@@ -52,7 +52,7 @@ export default function Navbar() {
                            <Link class="nav-link p-0 text-white" to="/Contact" > Contact Us </Link>
                         </li>
                      </ul>
-                     <Link to="tel:+12345678" class="navbar-btn text-white">
+                     <Link to="tel:9654370277" target='_blank' class="navbar-btn text-white">
                      <i class="fas fa-phone-volume"></i>
                      +91 96543 70277
                      </Link>
