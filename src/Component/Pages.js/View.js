@@ -22,7 +22,7 @@ export default function View() {
                      <div class=" col-10 mx-auto">
 
                         <h2 class="text-white text-center mt-4">Appoinment Sheduled </h2>
-                        <div class="offer-right-con overlay-img mt-5">
+                        <div class="offer-right-con overlay-img mt-4">
                            <h4 class="text-white">Appoinment Number : <span> #123456</span> </h4>
 
                            <h4 class="text-white">Name : <span> Tavi Singh</span> </h4>
